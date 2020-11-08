@@ -14,7 +14,9 @@ public class Controller {
     private UserRepo userRepo;
 
     @RequestMapping(path = "/",method = RequestMethod.GET)
-    public String testMethod(){
-        return "hello";
+    public User testMethod(){
+
+        return userRepo.findAll().get(0);
+
     }
 }
