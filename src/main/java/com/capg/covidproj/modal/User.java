@@ -12,8 +12,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Entity
-@Getter
-@Setter
+@Table(name = "_User")
 public class User implements Serializable {
 
     @Id
