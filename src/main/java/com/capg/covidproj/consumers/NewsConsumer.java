@@ -22,7 +22,8 @@ public class NewsConsumer {
     public ArrayList<Articles> retriveArticles(){
 
         News news = builder.getForObject(
-                "https://newsapi.org/v2/everything?q=corona&apiKey=96506bcfa27a4dcda1cbed20cc7f1e7d", News.class);
+                "https://newsapi.org/v2/top-headlines?q=corona&country=in&category=health&apiKey=96506bcfa27a4dcda1cbed20cc7f1e7d",
+                News.class);
 
         log.info(news.toString());
 
