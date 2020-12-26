@@ -7,8 +7,8 @@
 Make sure you have Java and Maven installed.  Also, install the [Heroku CLI](https://cli.heroku.com/).
 
 ```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
+$ git clone https://github.com/mojoman353/capg_covid_proj.git
+$ cd capg_covid_proj
 $ mvn install
 $ heroku local:start
 ```
